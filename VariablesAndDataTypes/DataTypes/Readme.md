@@ -2,9 +2,7 @@
 
 In JavaScript, data types play a crucial role as they determine the kind of values that can be stored, manipulated, and represented within a program. JavaScript is a dynamically-typed language, which means that variables can hold values of different data types without explicit declaration. However, understanding the various data types is essential for writing efficient and maintainable code.
 
-## Primitive Data Types
-
-Primitive data types in JavaScript are immutable, meaning their values cannot be changed once created. They are passed by value, which means that when you assign a primitive value to a variable, a copy of that value is created in memory. Here are the primitive data types in JavaScript:
+## Comments in JavaScript
 
 Certainly! In JavaScript, both single-line and multi-line comments are supported to document code and provide explanations. Comments are ignored by the JavaScript engine and are used solely for code readability and maintainability.
 
@@ -62,6 +60,10 @@ While comments can be incredibly helpful, it's important to strike a balance bet
 5. **Use comments consistently**: Adopt a consistent style for comments throughout your codebase, whether it's single-line or multi-line comments, to maintain consistency and readability.
 
 By following these best practices, you can leverage comments effectively to improve code readability, maintainability, and collaboration within your team or project.
+
+## Primitive Data Types
+
+Primitive data types in JavaScript are immutable, meaning their values cannot be changed once created. They are passed by value, which means that when you assign a primitive value to a variable, a copy of that value is created in memory. Here are the primitive data types in JavaScript:
 
 ### 1. String
 
