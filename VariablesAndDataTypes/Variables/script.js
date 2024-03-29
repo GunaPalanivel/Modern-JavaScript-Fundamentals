@@ -75,9 +75,6 @@ const $VariableName = "Welcome to Variables";
 // Print the value of '$VariableName' to the console
 console.log($VariableName); // Output: Welcome to Variables
 
-// Print the value of 'Variable_Name$' to the console
-console.log(Variable_Name$); // Output: Welcome to Variables
-
 // Declare a constant 'VariableName' and assign it the value "Welcome to Variables"
 const VariableName = "Welcome to Variables";
 
@@ -93,6 +90,9 @@ console.log(VariableName); // Output: Welcome to Variables
 
 // Declare a constant 'Variable_Name$' and assign it the value "Welcome to Variables"
 const Variable_Name$ = "Welcome to Variables";
+
+// Print the value of 'Variable_Name$' to the console
+console.log(Variable_Name$); // Output: Welcome to Variables
 
 // Print the value of 'Variable_Name$' to the console
 console.log(Variable_Name$); // Output: Welcome to Variables

@@ -1,4 +1,4 @@
-A comprehensive document about JavaScript variables that caters to both beginner and advanced learners. Let's dive in:
+# A comprehensive document about JavaScript variables that caters to both beginner and advanced learners. Let's dive in:
 
 ## Understanding Variables in JavaScript
 

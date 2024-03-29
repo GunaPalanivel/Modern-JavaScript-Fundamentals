@@ -1,5 +1,7 @@
 # Comprehensive Guide to JavaScript Variables
 
+## Also Look At [Variables.md](Variables.md)
+
 ## Introduction
 
 Welcome to the comprehensive guide to JavaScript variables! Whether you're a beginner taking your first steps into the world of programming or an experienced developer looking to deepen your understanding, this document will provide you with everything you need to know about JavaScript variables.
