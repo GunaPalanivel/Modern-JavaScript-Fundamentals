@@ -79,14 +79,4 @@ Congratulations! Variables are essential components of JavaScript programming, e
 
 ---
 
-## Test Your Knowledge
-
-1. What are variables in JavaScript?
-2. How do you create a variable in JavaScript?
-3. What are the differences between `var`, `let`, and `const` in JavaScript?
-4. How do you update the value of a variable in JavaScript?
-5. What are the rules for naming variables in JavaScript?
-
----
-
 Happy coding!
