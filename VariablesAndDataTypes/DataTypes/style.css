@@ -36,21 +36,14 @@ p {
   margin-top: 20px; /* Set the margin of the copyright div, Add some margin at the top to avoid overlapping with the content */
 }
 
-
 /* Style the paragraph inside the copyright div */
 .copyright p {
-  margin: 0;
+  margin: 0; /* Remove the margin of the paragraph inside the copyright div */
 }
 
-
-
-
 /* Style the link in the paragraph */
-/* Set the color of the link in the paragraph */
-/* Remove the underline from the link in the paragraph */
-/* Set the font weight of the link in the paragraph */
 a {
-  color: whitesmoke;
-  text-decoration: none;
-  font-weight: bold;
+  color: whitesmoke; /* Set the color of the link in the paragraph */
+  text-decoration: none; /* Remove the underline from the link in the paragraph */
+  font-weight: bold; /* Set the font weight of the link in the paragraph */
 }
