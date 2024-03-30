@@ -39,15 +39,18 @@ p {
 
 /* Style the paragraph inside the copyright div */
 .copyright p {
-  margin: 0;/* Remove the margin of the paragraph inside the copyright div */
+  margin: 0;
 }
 
 
 
 
 /* Style the link in the paragraph */
+/* Set the color of the link in the paragraph */
+/* Remove the underline from the link in the paragraph */
+/* Set the font weight of the link in the paragraph */
 a {
-  color: whitesmoke;/* Set the color of the link in the paragraph */
-  text-decoration: none;/* Remove the underline from the link in the paragraph */
-  font-weight: bold;/* Set the font weight of the link in the paragraph */
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
 }
