@@ -60,4 +60,6 @@ If you have any suggestions or find any issues, feel free to open a new issue or
 
 This project is licensed under the [MIT License](LICENSE).
 
+---
+
 This README.md file provides a basic structure for your JavaScript Fundamentals project.
