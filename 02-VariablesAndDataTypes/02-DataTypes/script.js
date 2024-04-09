@@ -229,8 +229,8 @@ const person1 = {
 console.log(person1.name); // Output: John Doe
 console.log(person1.age); // Output: 30
 console.log(person1.isStudent); // Output: true
-console.log(person1[id]); // Output: 123
-console.log(typeof id); // Output: symbol
+console.log(person1[id2]); // Output: 123
+console.log(typeof id2); // Output: symbol
 
 console.log(person1.hobbies); // Output: ['reading', 'coding', 'painting']
 console.log(typeof person1); // Output: object
