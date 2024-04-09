@@ -1,5 +1,5 @@
 // Defining strings using single quotes
-const singleQuote = 'Hello, World!';
+const singleQuote = "Hello, World!";
 console.log(singleQuote); // Output: Hello, World!
 console.log(typeof singleQuote); // Output: string
 //
@@ -59,7 +59,7 @@ console.log(typeof number3); // Output: number
 const number4 = "1 + 1";
 console.log(number4); // Output: 1 + 1
 console.log(typeof number4); // Output: string
-// 
+//
 //
 //
 // Boolean
@@ -69,25 +69,31 @@ console.log(isLoggedIn); // Output: true
 console.log(isAdmin); // Output: false
 console.log(typeof isLoggedIn); // Output: boolean
 console.log(typeof isAdmin); // Output: boolean
-
+//
+//
+//
 // Null
 let user = null;
 console.log(user); // Output: null
 console.log(typeof user); // Output: object
-
+//
+//
+//
 // Undefined
 let score;
 console.log(score); // Output: undefined
 console.log(typeof score); // Output: undefined
-
+//
+//
+//
 // Symbol
-const id = Symbol('id');
+const id = Symbol("id");
 const person = {
-    [id]: 123,
-    name: 'John Doe',
-    age: 30,
-    isStudent: true,
-    hobbies: ['reading', 'coding', 'painting']
+  [id]: 123,
+  name: "John Doe",
+  age: 30,
+  isStudent: true,
+  hobbies: ["reading", "coding", "painting"],
 };
 console.log(person.name); // Output: John Doe
 console.log(person.age); // Output: 30
@@ -97,15 +103,19 @@ console.log(typeof id); // Output: symbol
 
 console.log(person.hobbies); // Output: ['reading', 'coding', 'painting']
 console.log(typeof person); // Output: object
-
+//
+//
+//
 // Arrays (also an object type)
 const numbers = [1, 2, 3, 4, 5];
-const mixedArray = [true, 'hello', 42, null, { key: 'value' }];
+const mixedArray = [true, "hello", 42, null, { key: "value" }];
 console.log(numbers[2]); // Output: 3
 console.log(mixedArray[3]); // Output: null
 console.log(typeof numbers); // Output: object
 console.log(typeof mixedArray); // Output: object
-
+//
+//
+//
 // Functions (also an object type)
 function greet(name) {
   console.log(`Hello, ${name}!`);
