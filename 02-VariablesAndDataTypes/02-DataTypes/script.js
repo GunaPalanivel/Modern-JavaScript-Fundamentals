@@ -317,13 +317,14 @@ const person3 = {
   city: "New York",
 };
 
-console.log(person); // Output: { name: 'John', age: 30, city: 'New York' }
+console.log(person3); // Output: { name: 'John', age: 30, city: 'New York' }
 //
 //
 //
 // Example 2: Accessing object properties
-console.log(person.name); // Output: John
-console.log(person["age"]); // Output: 30
+console.log(person3.name); // Output: John
+console.log(person3["age"]); // Output: 30 [we're using "bracket notation" to access the value of the "age" property.]
+console.log(person3.age); // Output: 30 [we're using "dot notation" to access the value of the "age" property.]
 //
 //
 //

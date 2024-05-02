@@ -1,6 +1,6 @@
 # Understanding JavaScript Data Types
 
-I'm excited to provide a comprehensive guide on JavaScript data types. This document will cover the fundamental data types in JavaScript, starting from the beginner level and progressing to more advanced concepts.
+A comprehensive guide on JavaScript data types. This document will cover the fundamental data types in JavaScript, starting from the beginner level and progressing to more advanced concepts.
 
 ## Strings
 
@@ -37,9 +37,9 @@ console.log(typeof greeting); // Output: string
 
 ```javascript
 // Using template literals without variable interpolation
-const myGreeting = "Hello, ${name}!";
-console.log(myGreeting); // Output: Hello, ${name}!
-console.log(typeof myGreeting); // Output: string
+const myGreeting = "Hello, ${name}!"; // Assigning a string value with template literals
+console.log(myGreeting); // Output: Hello, ${name}! - The template literal is not interpolated, so it remains as it is.
+console.log(typeof myGreeting); // Output: string - The variable `myGreeting` is of type string.
 ```
 
 In the examples above, you can see the different ways to define strings in JavaScript, as well as how to use template literals to include variables within a string.
@@ -337,7 +337,7 @@ These data types have their own unique characteristics and use cases, and unders
 
 ## Dynamic Typing
 
-Sure, I'd be happy to help you explain dynamic typing to your friends. Let's use Java, C, C++, and Python as examples to contrast with JavaScript's dynamic typing.
+Let's use Java, C, C++, and Python as examples to contrast with JavaScript's dynamic typing.
 
 **What is Dynamic Typing?**
 
