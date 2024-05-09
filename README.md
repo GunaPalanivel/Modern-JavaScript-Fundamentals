@@ -4,11 +4,11 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 ## Table of Contents
 
-1. Environment Setup
-2. Variables and Data Types
-3. Operators and Equality
-4. Logic and Control Flow
-5. Functions
+1. [Environment Setup](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/01-Introduction)
+2. [Variables and Data Types](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes)
+3. [Operators and Equality](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/03-OperatorsAndEquality)
+4. [Logic and Control Flow](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/04-LogicAndControlFlow)
+5. [Functions](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/05-Functions)
 
 ## Environment Setup
 
