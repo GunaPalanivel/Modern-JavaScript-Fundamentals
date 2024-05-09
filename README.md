@@ -63,3 +63,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 This README.md file provides a basic structure for your JavaScript Fundamentals project.
+
+## Developer
+
+This project was developed by [Guna Palanivel](https://www.linkedin.com/in/guna-palanivel/).
