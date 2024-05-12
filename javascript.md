@@ -18,3 +18,7 @@ JavaScript documentation of core language features (pure [ECMAScript](https://de
 - The [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 For more information about JavaScript specifications and related technologies, see [JavaScript technologies overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview).
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

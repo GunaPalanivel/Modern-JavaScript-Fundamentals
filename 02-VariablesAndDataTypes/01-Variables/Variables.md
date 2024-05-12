@@ -133,3 +133,7 @@ It's generally a good practice to declare variables at the top of their respecti
 Understanding variables and their behavior is crucial for writing effective and maintainable JavaScript code. In this document, we covered the different ways to declare variables, naming rules, variable scopes, and the concept of hoisting. By following best practices and using the appropriate variable declaration keywords, you can write more organized and predictable code.
 
 Remember, practice is key to mastering these concepts. Feel free to experiment with the code examples provided and explore different scenarios to solidify your understanding of JavaScript variables.
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

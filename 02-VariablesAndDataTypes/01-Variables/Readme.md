@@ -80,3 +80,5 @@ Congratulations! Variables are essential components of JavaScript programming, e
 ---
 
 Happy coding!
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

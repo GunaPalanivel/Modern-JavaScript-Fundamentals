@@ -209,6 +209,9 @@ Understanding JavaScript data types is fundamental for writing efficient and mai
 ## Additional Resources
 
 - [JavaScript Data Types](https://developer.mozilla.org/en-US/docs/Glossary/Data_type)
+
 ---
 
 Happy coding!
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

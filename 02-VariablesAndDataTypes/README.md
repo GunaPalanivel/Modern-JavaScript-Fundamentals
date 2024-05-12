@@ -1,5 +1,7 @@
 # Introduction to JavaScript Variables and Data Types
 
+## To see the actual code samples of this README guide, please check the [02-VariablesAndDataTypes](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes) github file.
+
 ## Overview
 
 In this comprehensive README guide, we will explore the fundamental concepts of variables and data types in JavaScript. As a crucial part of any programming language, variables allow us to store and manipulate data, while data types define the kind of values that can be represented and operated upon within a program.
@@ -58,8 +60,8 @@ let let = "David";         // Invalid (uses a reserved keyword)
 You can assign a value to a variable using the assignment operator (`=`). Updating the value of an existing variable is as simple as reassigning a new value to it.
 
 ```javascript
-let score = 100;   // Initial assignment
-score = 120;       // Updating the value
+let score = 100; // Initial assignment
+score = 120; // Updating the value
 ```
 
 ## Data Types
@@ -86,7 +88,7 @@ multiline string`;
 The number data type represents both integers and floating-point numbers.
 
 ```javascript
-const age = 25;           // Integer
+const age = 25; // Integer
 const temperature = 20.5; // Floating-point number
 ```
 
@@ -129,7 +131,7 @@ const person = {
   name: "John Doe",
   age: 30,
   isStudent: false,
-  hobbies: ["reading", "coding", "painting"]
+  hobbies: ["reading", "coding", "painting"],
 };
 ```
 
@@ -164,3 +166,7 @@ Understanding variables and data types is crucial for writing efficient and main
 - [MDN Web Docs: JavaScript Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variables)
 
 Happy coding!
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

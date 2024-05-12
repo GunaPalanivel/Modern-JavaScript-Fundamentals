@@ -36,3 +36,7 @@ Welcome to the combined guide for utilizing Visual Studio Code (VS Code) and Goo
 - Utilize resources like Mozilla Developer Network (MDN) JavaScript Guide and FreeCodeCamp JavaScript Course to enhance your skills.
 
 By combining the power of Visual Studio Code and Chrome Developer Tools, you'll have everything you need to kickstart your journey into JavaScript and web development. Happy coding! 🚀
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

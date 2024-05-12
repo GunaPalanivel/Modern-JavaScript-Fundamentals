@@ -445,3 +445,7 @@ By understanding the differences between static and dynamic typing, and how Java
 In this comprehensive guide, we've covered the fundamental data types in JavaScript, including strings, numbers, and other types. We've explored how to define and work with these data types, as well as the concept of dynamic typing in JavaScript.
 
 Feel free to experiment with the code examples provided and explore additional data types and scenarios to further deepen your understanding of this crucial aspect of the JavaScript language.
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
