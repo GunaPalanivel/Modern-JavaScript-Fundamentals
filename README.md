@@ -64,7 +64,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-This README.md file provides a basic structure for your JavaScript Fundamentals project.
+This README.md file provides a basic structure for this JavaScript Fundamentals project.
 
 ## Developer
 
