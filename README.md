@@ -12,22 +12,23 @@ JavaScript is one of the most popular programming languages, and it has become i
 4. [Logic and Control Flow](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/04-LogicAndControlFlow)
 5. [Functions](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/05-Functions)
 
-## Environment Setup
+## [Environment Setup](./01-Introduction/README.md)
 
 This project is designed to be used with Visual Studio Code, a popular code editor. You should also install the following [Visual Studio Code extensions and Change the settings](https://github.com/GunaPalanivel/vs-code-settings) for a better coding experience.
 
-## Variables and Data Types
+## [Variables and Data Types](./02-VariablesAndDataTypes/README.md)
 
 In this section, you will learn about:
 
-- Variables
-- Data Types (Strings, Numbers, Booleans, Null, Undefined, Objects)
-- Statically vs. Dynamically Typed Languages
+- [Variables](./02-VariablesAndDataTypes/01-Variables/Variables.md)
+- [Data Types (Strings, Numbers, Booleans, Null, Undefined, Objects)](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
+- [Statically vs. Dynamically Typed Languages](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
 
-## Operators and Equality
+## [Operators and Equality](./03-OperatorsAndEquality/README.md)
 
 This section covers:
 
+- [Operators and Equality](./03-OperatorsAndEquality/OperatorsAndEquality.md)
 - Arithmetic Operators
 - Comparison Operators and Equality
 - Strict vs. Loose Equality
@@ -38,6 +39,7 @@ This section covers:
 
 In this section, you will explore:
 
+- [Logic and Control Flow](./04-LogicAndControlFlow/LogicAndControlFlow.md)
 - If Statements
 - Truthy and Falsy Values
 - Logical Operators (Part 2)
@@ -49,6 +51,7 @@ In this section, you will explore:
 
 This section focuses on:
 
+- [Functions](./05-Functions/Functions.md)
 - Declaring and Invoking Functions
 - Function Return
 - Arrow Functions
