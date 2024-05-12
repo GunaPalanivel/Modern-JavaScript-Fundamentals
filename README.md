@@ -2,6 +2,8 @@
 
 JavaScript is one of the most popular programming languages, and it has become increasingly powerful since the introduction of ES6 in 2014. This project is designed to help you learn the fundamental concepts of JavaScript, including Variables & Data Types, Operators & Equality, Logic & Control Flow, and Functions.
 
+**For More Information on JavaScript heads to [javascript.md](javascript.md)**
+
 ## Table of Contents
 
 1. [Environment Setup](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/01-Introduction)
