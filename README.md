@@ -18,9 +18,9 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 ## [Environment Setup](./01-Introduction/README.md)
 
-- [Source Code Editor For Web Development](./01-Introduction/Environment%20Setup/SourceCodeEditorForWebDevelopment.md)
-- [Getting Started with Visual Studio Code for JavaScript and Web Development](./01-Introduction/Environment%20Setup/VisualStudioCodeSetup.md)
-- [Guide: Getting Started with Chrome and Developer Tools for JavaScript Web Development](./01-Introduction/Environment%20Setup/WebBrowserForWebDevelopment.md)
+- [Source Code Editor For Web Development](./01-Introduction/SourceCodeEditorForWebDevelopment.md)
+- [Getting Started with Visual Studio Code for JavaScript and Web Development](./01-Introduction/VisualStudioCodeSetup.md)
+- [Guide: Getting Started with Chrome and Developer Tools for JavaScript Web Development](./01-Introduction/WebBrowserForWebDevelopment.md)
 
 This project is designed to be used with Visual Studio Code, a popular code editor. You should also install the following [Visual Studio Code extensions and Change the settings](https://github.com/GunaPalanivel/vs-code-settings) for a better coding experience.
 
