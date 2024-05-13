@@ -1,6 +1,6 @@
 # Comprehensive Guide to JavaScript Variables
 
-## Also Look At [Variables.md](Variables.md)
+**Also Look At [Variables.md](Variables.md)**
 
 ## Introduction
 

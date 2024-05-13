@@ -4,7 +4,7 @@
 
 Google Chrome is a widely used web browser with robust developer tools built-in. Follow these steps to download and install Chrome:
 
-- Visit the official Google Chrome website: [https://www.google.com/chrome/](https://www.google.com/chrome/)
+- Visit the official [Google Chrome website](https://www.google.com/chrome/).
 - Click on the "Download Chrome" button.
 - Follow the on-screen instructions to download the installer.
 - Once downloaded, run the installer and follow the installation prompts.
@@ -41,10 +41,10 @@ Developer Tools offer a plethora of features to aid in web development. Here are
 
 To further enhance your skills with Chrome Developer Tools and JavaScript web development, consider exploring these resources:
 
-- Google Chrome Developer Tools documentation: [https://developer.chrome.com/docs/devtools/](https://developer.chrome.com/docs/devtools/)
-- Mozilla Developer Network (MDN) JavaScript Guide: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-- FreeCodeCamp JavaScript Course: [https://www.freecodecamp.org/learn/](https://www.freecodecamp.org/learn/)
-- JavaScript.info: [https://javascript.info/](https://javascript.info/)
+- Google Chrome [Developer Tools documentation](https://developer.chrome.com/docs/devtools/)
+- Mozilla Developer Network (MDN) [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
+- FreeCodeCamp [JavaScript Course](https://www.freecodecamp.org/learn/).
+- [JavaScript.info.](https://javascript.info/)
 
 By leveraging Google Chrome and its Developer Tools effectively, beginners can gain valuable insights into web development and JavaScript programming, accelerating their learning journey and proficiency in building web applications.
 

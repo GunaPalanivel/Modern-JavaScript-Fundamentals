@@ -1,6 +1,6 @@
 # Introduction to JavaScript Variables and Data Types
 
-## To see the actual code samples of this README guide, please check the [02-VariablesAndDataTypes](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes) github file.
+**To see the actual code samples of this README guide, please check the [02-VariablesAndDataTypes](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes) github file.**
 
 ## Overview
 
