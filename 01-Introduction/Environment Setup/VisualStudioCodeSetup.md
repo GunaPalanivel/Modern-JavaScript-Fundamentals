@@ -4,3 +4,7 @@
 - Try these extensions and settings to make coding easier. They can make your work simpler.
 
 ### See [vs-code-settings](https://github.com/GunaPalanivel/vs-code-settings) for more detailed information.
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

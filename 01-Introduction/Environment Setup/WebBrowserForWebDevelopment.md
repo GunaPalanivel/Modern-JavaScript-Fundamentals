@@ -47,3 +47,7 @@ To further enhance your skills with Chrome Developer Tools and JavaScript web de
 - JavaScript.info: [https://javascript.info/](https://javascript.info/)
 
 By leveraging Google Chrome and its Developer Tools effectively, beginners can gain valuable insights into web development and JavaScript programming, accelerating their learning journey and proficiency in building web applications.
+
+---
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**

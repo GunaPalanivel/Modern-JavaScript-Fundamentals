@@ -6,13 +6,21 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 ## Table of Contents
 
+**Paths to the GitHub Folder for each section**
+
 1. [Environment Setup](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/01-Introduction)
 2. [Variables and Data Types](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes)
 3. [Operators and Equality](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/03-OperatorsAndEquality)
 4. [Logic and Control Flow](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/04-LogicAndControlFlow)
 5. [Functions](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/05-Functions)
 
+## Via GitHub Pages (Website)
+
 ## [Environment Setup](./01-Introduction/README.md)
+
+- [Source Code Editor For Web Development](./01-Introduction/Environment%20Setup/SourceCodeEditorForWebDevelopment.md)
+- [Getting Started with Visual Studio Code for JavaScript and Web Development](./01-Introduction/VisualStudioCodeSetup.md)
+- [Guide: Getting Started with Chrome and Developer Tools for JavaScript Web Development](./01-Introduction/WebBrowserForWebDevelopment.md)
 
 This project is designed to be used with Visual Studio Code, a popular code editor. You should also install the following [Visual Studio Code extensions and Change the settings](https://github.com/GunaPalanivel/vs-code-settings) for a better coding experience.
 
@@ -28,7 +36,8 @@ In this section, you will learn about:
 
 This section covers:
 
-- [Operators and Equality](./03-OperatorsAndEquality/OperatorsAndEquality.md)
+**[Operators and Equality](./03-OperatorsAndEquality/OperatorsAndEquality.md)**
+
 - Arithmetic Operators
 - Comparison Operators and Equality
 - Strict vs. Loose Equality
@@ -39,7 +48,8 @@ This section covers:
 
 In this section, you will explore:
 
-- [Logic and Control Flow](./04-LogicAndControlFlow/LogicAndControlFlow.md)
+**[Logic and Control Flow](./04-LogicAndControlFlow/LogicAndControlFlow.md)**
+
 - If Statements
 - Truthy and Falsy Values
 - Logical Operators (Part 2)
@@ -51,7 +61,8 @@ In this section, you will explore:
 
 This section focuses on:
 
-- [Functions](./05-Functions/Functions.md)
+**[Functions](./05-Functions/Functions.md)**
+
 - Declaring and Invoking Functions
 - Function Return
 - Arrow Functions
@@ -72,3 +83,5 @@ This README.md file provides a basic structure for this JavaScript Fundamentals 
 ## Developer
 
 This project was developed by [Guna Palanivel](https://www.linkedin.com/in/guna-palanivel/).
+
+**For More Information heads to [GitHub Folder](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals.git).**

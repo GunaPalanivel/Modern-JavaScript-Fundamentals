@@ -81,4 +81,6 @@ Congratulations! Variables are essential components of JavaScript programming, e
 
 Happy coding!
 
+**To see the actual code samples of this README guide, please check the [02-VariablesAndDataTypes](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes) github file.**
+
 **Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
