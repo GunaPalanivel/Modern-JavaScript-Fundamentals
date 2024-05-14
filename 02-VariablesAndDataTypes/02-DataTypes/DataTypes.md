@@ -8,7 +8,7 @@ Strings are one of the most common data types in JavaScript. They represent a se
 
 ```javascript
 // Defining strings using single quotes
-const singleQuote = "Hello, World!";
+const singleQuote = 'Hello, World!';
 console.log(singleQuote); // Output: Hello, World!
 console.log(typeof singleQuote); // Output: string
 ```
@@ -363,7 +363,7 @@ Python, on the other hand, is a language that combines elements of both static a
 2. **Less Compiler Assistance**: Statically-typed languages like Java and C++ provide more compiler assistance, such as auto-complete and type-checking, which can improve developer productivity.
 3. **Potential for Unexpected Behavior**: If you're not careful, dynamic typing can lead to unexpected behavior, as variables may hold values of different types than you expected.
 
-**Example in JavaScript vs. Java**
+**Example's for Dynamic Typings**
 
 Sure, let's look at some code examples in Java, C, C++, and Python to illustrate the differences in static and dynamic typing.
 
