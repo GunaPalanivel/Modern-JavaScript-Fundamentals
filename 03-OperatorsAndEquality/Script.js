@@ -80,8 +80,8 @@ console.log(typeof (5 !== 5)); // boolean
 console.log(5 == "5"); // true
 console.log(typeof (5 == "5")); // boolean
 
-// The Good Ones => ===, !==
-// The Bad Ones => ==, !=
+// The Good Ones => ===, !===
+// The Bad Ones (Evil Twins) => ==, !==
 
 // The equality operator (==) is known as the lose equality operator because it does not compare the data type of the operands.
 console.log("" == "0"); // false
