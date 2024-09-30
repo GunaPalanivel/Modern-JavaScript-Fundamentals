@@ -159,6 +159,10 @@ Here, `hasValidToken` is evaluated only if `userLoggedIn` is `true`. If `userLog
 
 4. **Real-world scenarios and potential pitfalls** are highlighted to help developers understand the importance of avoiding loose equality in critical comparisons.
 
+## Additional Resources
+
+- [MDN Web Docs: Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
+
 ---
 
 Happy coding!
