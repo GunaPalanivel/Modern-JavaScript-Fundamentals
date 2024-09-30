@@ -110,7 +110,24 @@ console.log(null == undefined); // true
 console.log(" \t\r\n " == 0); // true
 
 //
-
 console.log(true == 1); // true
 console.log(5 == "5"); // true
 console.log(5 === "5"); // false
+
+// Logical Operators => true or false (There are three logical operators in JavaScript: && (logical AND), || (logical OR), and ! (logical NOT).) => Logical operators are used to combine two or more conditions. They return a boolean value based on the evaluation of the conditions.
+//  Logical AND (&&) => The logical AND operator (&&) returns true if both the operands are true. Otherwise, it returns false.
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(false && false); // false
+console.log(typeof (true && true)); // boolean
+
+// Logical OR (||) => The logical OR operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); // false
+// Logical NOT (!) => The logical NOT operator (!) returns true if the operand is false. Otherwise, it returns false.
+console.log(!true); // false
+console.log(!false); // true
+console.log(typeof !true); // boolean
