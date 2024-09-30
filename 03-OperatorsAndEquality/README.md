@@ -1,5 +1,7 @@
 # JavaScript Comparison and Logical Operators
 
+For a visual explanation, check out this [GitHub Repository](https://github.com/GunaPalanivel/JavaScript-Equality-Table.git).
+
 ## Overview
 
 This document explains how JavaScript comparison operators and logical operators work. It covers **strict equality**, **loose equality**, **strict inequality**, **logical AND**, **logical OR**, and **logical NOT**. Code examples with expected outputs are provided for clarity.
