@@ -1,3 +1,9 @@
+# Introduction to JavaScript Operators and Equality
+
+**To see the actual code samples of this README guide, please check the [03-OperatorsAndEquality](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/03-OperatorsAndEquality) github file.**
+
+**Also Look At [OperatorsAndEquality.md](./OperatorsAndEquality.md)**
+
 # JavaScript Comparison and Logical Operators
 
 For a visual explanation, check out this [GitHub Repository](https://github.com/GunaPalanivel/JavaScript-Equality-Table.git).
