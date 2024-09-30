@@ -80,8 +80,20 @@ console.log(typeof (5 !== 5)); // boolean
 console.log(5 == "5"); // true
 console.log(typeof (5 == "5")); // boolean
 
-// The Good Ones => ===, !===
-// The Bad Ones (Evil Twins) => ==, !==
+// The Good Ones (Strict Equality & Inequality) => === (Strict Equality): Checks for equality without type coercion. The values must be of the same type and value , !== (Strict Inequality): Checks for inequality without type coercion. The values must be of different types or different values
+// The Bad Ones (Evil Twins - Loose Equality & Inequality) => == (Loose Equality): Checks for equality with type coercion. It attempts to convert the operands to the same type before comparing , !== (Loose Inequality): Checks for inequality with type coercion.
+
+// The Good Ones
+console.log(5 === 5); // true (same type and value)
+console.log(5 === "5"); // false (different types)
+console.log(5 !== 10); // true (different values)
+console.log(5 !== "5"); // true (different types)
+
+// The Bad Ones
+console.log(5 == "5"); // true (type coercion occurs, both are converted to 5)
+console.log(0 == false); // true (false is coerced to 0)
+console.log(null == undefined); // true (null and undefined are loosely equal)
+console.log(5 != "5"); // false (type coercion makes both 5)
 
 // The equality operator (==) is known as the lose equality operator because it does not compare the data type of the operands.
 console.log("" == "0"); // false
@@ -96,3 +108,9 @@ console.log(false == null); // false
 console.log(null == undefined); // true
 
 console.log(" \t\r\n " == 0); // true
+
+//
+
+console.log(true == 1); // true
+console.log(5 == "5"); // true
+console.log(5 === "5"); // false
