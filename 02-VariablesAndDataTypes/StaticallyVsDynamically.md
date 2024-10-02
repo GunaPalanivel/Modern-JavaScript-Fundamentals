@@ -174,7 +174,6 @@ Feel free to experiment with the code samples provided to deepen your understand
 For more examples and in-depth discussions on JavaScript and other programming paradigms, check out the following resources:
 
 - [02-VariablesAndDataTypes](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes)
-- [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)
 
 **Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
 
