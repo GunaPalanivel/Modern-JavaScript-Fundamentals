@@ -6,6 +6,8 @@
 
 **Also Look At [DataTypes.md](./02-DataTypes/DataTypes.md)**
 
+**Also Look At [StaticallyVsDynamically.md](./StaticallyVsDynamically.md)**
+
 ## Overview
 
 In this comprehensive README guide, we will explore the fundamental concepts of variables and data types in JavaScript. As a crucial part of any programming language, variables allow us to store and manipulate data, while data types define the kind of values that can be represented and operated upon within a program.
