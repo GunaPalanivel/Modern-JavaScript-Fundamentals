@@ -32,7 +32,7 @@ In this section, you will learn about:
 - [Data Types (Strings, Numbers, Booleans, Null, Undefined, Objects)](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
 - [Statically vs. Dynamically Typed Languages](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
 
-## [Operators and Equality](./03-OperatorsAndEquality/README.md)
+## [Operators and Equality](/03-OperatorsAndEquality/README.md)
 
 This section covers:
 
