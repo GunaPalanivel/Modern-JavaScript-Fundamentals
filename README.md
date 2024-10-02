@@ -8,7 +8,7 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 1. [Environment Setup](./01-Introduction/README.md)
 2. [Variables and Data Types](./02-VariablesAndDataTypes/README.md)
-3. [Operators and Equality](./OperatorsAndEquality.md)
+3. [Operators and Equality](./03-OperatorsAndEquality/README.md)
 4. [Logic and Control Flow](./04-LogicAndControlFlow/README.md)
 5. [Functions](./05-Functions/README.md)
 
@@ -28,9 +28,9 @@ In this section, you will learn about:
 
 - [Variables](./02-VariablesAndDataTypes/01-Variables/Variables.md)
 - [Data Types (Strings, Numbers, Booleans, Null, Undefined, Objects)](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
-- [Statically vs. Dynamically Typed Languages](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
+- [Statically vs. Dynamically Typed Languages](./02-VariablesAndDataTypes/Statically%20vs.%20Dynamically.md)
 
-## [Operators and Equality](./OperatorsAndEquality.md)
+## [Operators and Equality](./03-OperatorsAndEquality/README.md)
 
 This section covers:
 
