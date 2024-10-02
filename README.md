@@ -8,7 +8,7 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 1. [Environment Setup](./01-Introduction/README.md)
 2. [Variables and Data Types](./02-VariablesAndDataTypes/README.md)
-3. [Operators and Equality](./03-OperatorsAndEquality/README.md)
+3. [Operators and Equality](./OperatorsAndEquality.md)
 4. [Logic and Control Flow](./04-LogicAndControlFlow/README.md)
 5. [Functions](./05-Functions/README.md)
 
