@@ -6,11 +6,11 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 ## Table of Contents
 
-1. [Environment Setup](/01-Introduction/README.md)
-2. [Variables and Data Types](/02-VariablesAndDataTypes/README.md)
-3. [Operators and Equality](Markdown%20Files/OperatorsAndEqualityREADME.md)
-4. [Logic and Control Flow](/04-LogicAndControlFlow/README.md)
-5. [Functions](/05-Functions/README.md)
+1. [Environment Setup](./01-Introduction/README.md)
+2. [Variables and Data Types](./02-VariablesAndDataTypes/README.md)
+3. [Operators and Equality](./03-OperatorsAndEquality/README.md)
+4. [Logic and Control Flow](./04-LogicAndControlFlow/README.md)
+5. [Functions](./05-Functions/README.md)
 
 ## Via GitHub Pages (Website)
 
@@ -30,11 +30,11 @@ In this section, you will learn about:
 - [Data Types (Strings, Numbers, Booleans, Null, Undefined, Objects)](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
 - [Statically vs. Dynamically Typed Languages](./02-VariablesAndDataTypes/02-DataTypes/DataTypes.md)
 
-## [Operators and Equality](/03-OperatorsAndEquality/README.md)
+## [Operators and Equality](./03-OperatorsAndEquality/README.md)
 
 This section covers:
 
-**[Operators and Equality](/Markdown%20Files/OperatorsAndEqualityREADME.md)**
+**[Operators and Equality](./03-OperatorsAndEquality/OperatorsAndEquality.md)**
 
 - Arithmetic Operators
 - Comparison Operators and Equality
@@ -78,7 +78,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 This README.md file provides a basic structure for this JavaScript Fundamentals project.
 
-## Developer
+## Conclusion / call to action (CTA)
 
 Thanks for reading! If you have any questions, feel free to reach out through [GitHub](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/issues).
 
