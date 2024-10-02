@@ -6,13 +6,11 @@ JavaScript is one of the most popular programming languages, and it has become i
 
 ## Table of Contents
 
-**Paths to the GitHub Folder for each section**
-
-1. [Environment Setup](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/01-Introduction)
-2. [Variables and Data Types](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/02-VariablesAndDataTypes)
-3. [Operators and Equality](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/03-OperatorsAndEquality)
-4. [Logic and Control Flow](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/04-LogicAndControlFlow)
-5. [Functions](https://github.com/gp5901/Modern-JavaScript-Fundamentals/tree/main/05-Functions)
+1. [Environment Setup](/01-Introduction/README.md)
+2. [Variables and Data Types](/02-VariablesAndDataTypes/README.md)
+3. [Operators and Equality](/03-OperatorsAndEquality/README.md)
+4. [Logic and Control Flow](/04-LogicAndControlFlow/README.md)
+5. [Functions](/05-Functions/README.md)
 
 ## Via GitHub Pages (Website)
 
