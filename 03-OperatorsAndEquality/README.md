@@ -1,4 +1,4 @@
-<!-- # Introduction to JavaScript Operators and Equality
+# Introduction to JavaScript Operators and Equality
 
 **To see the actual code samples of this README guide, please check the [03-OperatorsAndEquality](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/tree/main/03-OperatorsAndEquality) github file.**
 
@@ -167,4 +167,4 @@ Here, `hasValidToken` is evaluated only if `userLoggedIn` is `true`. If `userLog
 
 Happy coding!
 
-**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)** -->
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
