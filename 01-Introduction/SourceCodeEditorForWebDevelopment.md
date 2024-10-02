@@ -20,7 +20,7 @@
 
 ## Step 4: Running JavaScript Code
 
-- To run JavaScript code directly within Visual Studio Code, you can use the built-in integrated terminal. Open the integrated terminal by selecting View > Terminal or using the shortcut Ctrl+` (Cmd+` on Mac).
+- To run JavaScript code directly within Visual Studio Code, you can use the built-in integrated terminal. Open the integrated terminal by selecting View > Terminal or using the shortcut Ctrl+ `Cmd+` on Mac.
 - Navigate to the directory where your JavaScript file is located using the terminal.
 - Run your JavaScript file by typing `node yourfilename.js` in the terminal and pressing Enter. Replace "yourfilename.js" with the name of your JavaScript file.
 

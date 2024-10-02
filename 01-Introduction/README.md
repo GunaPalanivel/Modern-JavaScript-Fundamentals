@@ -16,7 +16,7 @@ Welcome to the combined guide for utilizing Visual Studio Code (VS Code) and Goo
 
 - Create a new JavaScript file, write your code, and save it with a `.js` extension.
 
-### Step 4: See [VisualStudioCodeSetup.md](./Environment%20Setup/VisualStudioCodeSetup.md) for more detailed instructions.
+### Step 4: See [VisualStudioCodeSetup.md](./VisualStudioCodeSetup.md) for more detailed instructions.
 
 ## Guide: Getting Started with Chrome and Developer Tools for JavaScript Web Development
 
@@ -28,7 +28,7 @@ Welcome to the combined guide for utilizing Visual Studio Code (VS Code) and Goo
 
 - Open Chrome, navigate to a webpage, right-click and select "Inspect", or use the shortcut Ctrl+Shift+I (Cmd+Option+I on Mac).
 
-### 3. See [WebBrowserForWebDevelopment.md](./Environment%20Setup/WebBrowserForWebDevelopment.md) for more detailed instructions.
+### 3. See [WebBrowserForWebDevelopment.md](./WebBrowserForWebDevelopment.md) for more detailed instructions.
 
 ## Learning Resources
 
