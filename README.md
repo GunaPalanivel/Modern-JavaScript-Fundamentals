@@ -80,6 +80,6 @@ This README.md file provides a basic structure for this JavaScript Fundamentals 
 
 ## Developer
 
-This project was developed by [Guna Palanivel](https://www.linkedin.com/in/guna-palanivel/).
+Thanks for reading! If you have any questions, feel free to reach out through [GitHub](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/issues).
 
 **For More Information heads to [GitHub Folder](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals.git).**
