@@ -3,7 +3,9 @@
 Welcome to the combined guide for utilizing Visual Studio Code (VS Code) and Google Chrome Developer Tools for JavaScript and web development. This README provides a comprehensive overview of essential extensions for VS Code, as well as instructions on getting started with Chrome and its Developer Tools.
 
 **Also look at the [SourceCodeEditorForWebDevelopment.md](./SourceCodeEditorForWebDevelopment.md)**
+
 **Also look at the [VisualStudioCodeSetup.md](./VisualStudioCodeSetup.md)**
+
 **Also look at the [WebBrowserForWebDevelopment.md](./WebBrowserForWebDevelopment.md)**
 
 ## Getting Started with Visual Studio Code for JavaScript and Web Development
