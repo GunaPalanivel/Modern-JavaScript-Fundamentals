@@ -42,7 +42,7 @@ This section covers:
 - Logical Operators
 - Assignment Operators
 
-## Logic and Control Flow
+## [Logic and Control Flow](./04-LogicAndControlFlow/README.md)
 
 In this section, you will explore:
 
@@ -55,7 +55,7 @@ In this section, you will explore:
 - Ternary Operator
 - Loops (While and For)
 
-## Functions
+## [Functions](./05-Functions/README.md)
 
 This section focuses on:
 
@@ -75,8 +75,6 @@ If you have any suggestions or find any issues, feel free to open a new issue or
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-This README.md file provides a basic structure for this JavaScript Fundamentals project.
 
 ## Conclusion / call to action (CTA)
 
