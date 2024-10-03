@@ -70,10 +70,6 @@ This section focuses on:
 
 If you have any suggestions or find any issues, feel free to open a new issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 ## Conclusion / call to action (CTA)
@@ -81,3 +77,7 @@ This project is licensed under the [MIT License](LICENSE).
 Thanks for reading! If you have any questions, feel free to reach out through [GitHub](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals/issues).
 
 **For More Information heads to [GitHub Folder](https://github.com/GunaPalanivel/Modern-JavaScript-Fundamentals.git).**
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
