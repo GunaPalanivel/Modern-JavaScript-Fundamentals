@@ -45,6 +45,38 @@ console.log(typeof (a === b)); // Output: boolean
 - **Prefer `===` and `!==`**: Using strict equality and inequality operators reduces bugs by ensuring both value and type are considered.
 - **Use `==` and `!=` cautiously**: Only use when type coercion is intentional and understood.
 
+### Inequality (`!=`) and Strict Inequality (`!==`)
+
+#### **Inequality (`!=`)**
+
+- **Description**: Returns `true` if the values are not equal after type coercion.
+- **Usage**: Similar to `==`, use when type differences are acceptable.
+
+#### **Strict Inequality (`!==`)**
+
+- **Description**: Returns `true` if the values or types are not strictly equal.
+- **Usage**: Preferred for precise comparisons, ensuring both value and type mismatch.
+
+#### **Examples:**
+
+```javascript
+const a = 10;
+const b = "20";
+
+// Loose Inequality
+console.log(a != b); // Output: true (number 10 is not equal to string "20" after type coercion)
+console.log(typeof (a != b)); // Output: boolean
+
+// Strict Inequality
+console.log(a !== b); // Output: true (different types: number vs. string)
+console.log(typeof (a !== b)); // Output: boolean
+```
+
+#### **Explanation:**
+
+- **`a != b`**: Returns `true` because `10` is not equal to `20` after coercion.
+- **`a !== b`**: Returns `true` as the values are different and types do not match.
+
 ---
 
 ## 6. Additional Resources
