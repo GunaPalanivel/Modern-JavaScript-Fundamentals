@@ -143,6 +143,63 @@ console.log(typeof (a <= b)); // Output: boolean
 
 ---
 
+## Logical Operators
+
+Logical operators combine multiple boolean expressions, enabling more complex condition evaluations. They return boolean results based on the logical relationships defined.
+
+### Logical AND (`&&`)
+
+- **Description**: Returns `true` only if **both** operands are `true`. Otherwise, returns `false`.
+- **Usage**: Commonly used to ensure multiple conditions are met before executing a block of code.
+
+#### **Examples:**
+
+```javascript
+const x = 5;
+const y = 10;
+
+// Both conditions true
+console.log(x > 0 && y > 0); // Output: true
+
+// One condition false
+console.log(x > 0 && y < 0); // Output: false
+```
+
+### Logical OR (`||`)
+
+- **Description**: Returns `true` if **at least one** operand is `true`. Returns `false` only if both operands are `false`.
+- **Usage**: Useful when a condition should pass if any one of multiple possibilities is met.
+
+#### **Examples:**
+
+```javascript
+const x = 5;
+const y = -10;
+
+// At least one condition true
+console.log(x > 0 || y > 0); // Output: true
+
+// Both conditions false
+console.log(x < 0 || y < 0); // Output: false
+```
+
+### Logical NOT (`!`)
+
+- **Description**: Inverts the boolean value of its operand. Converts `true` to `false` and vice versa.
+- **Usage**: Useful for negating conditions or toggling boolean states.
+
+#### **Examples:**
+
+```javascript
+const x = 5;
+
+// Inverting true condition
+console.log(!(x > 0)); // Output: false
+
+// Inverting false condition
+console.log(!(x < 0)); // Output: true
+```
+
 ## 6. Additional Resources
 
 To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
