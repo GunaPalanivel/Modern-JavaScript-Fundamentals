@@ -34,7 +34,7 @@ In this section, you will learn about:
 
 This section covers:
 
-**[Operators and Equality](./OperatorsAndEquality.md)**
+**[Operators and Equality](./03-OperatorsAndEquality/OperatorsAndEquality.md)**
 
 - Arithmetic Operators
 - Comparison Operators and Equality
