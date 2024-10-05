@@ -77,6 +77,72 @@ console.log(typeof (a !== b)); // Output: boolean
 - **`a != b`**: Returns `true` because `10` is not equal to `20` after coercion.
 - **`a !== b`**: Returns `true` as the values are different and types do not match.
 
+### Greater Than (`>`) and Less Than (`<`)
+
+#### **Greater Than (`>`)**
+
+- **Description**: Checks if the left operand is greater than the right operand.
+- **Usage**: Commonly used in loops and conditional statements to control flow based on numerical comparisons.
+
+#### **Less Than (`<`)**
+
+- **Description**: Checks if the left operand is less than the right operand.
+- **Usage**: Similar to `>`, used to control program flow based on numerical thresholds.
+
+#### **Examples:**
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Greater Than
+console.log(a > b); // Output: false (10 is not greater than 20)
+console.log(typeof (a > b)); // Output: boolean
+
+// Less Than
+console.log(a < b); // Output: true (10 is less than 20)
+console.log(typeof (a < b)); // Output: boolean
+```
+
+#### **Explanation:**
+
+- **`a > b`**: Evaluates to `false` because `10` is not greater than `20`.
+- **`a < b`**: Evaluates to `true` because `10` is less than `20`.
+
+### Greater Than or Equal (`>=`) and Less Than or Equal (`<=`)
+
+#### **Greater Than or Equal (`>=`)**
+
+- **Description**: Checks if the left operand is greater than or equal to the right operand.
+- **Usage**: Useful in boundary conditions, such as validating minimum requirements.
+
+#### **Less Than or Equal (`<=`)**
+
+- **Description**: Checks if the left operand is less than or equal to the right operand.
+- **Usage**: Useful in scenarios requiring maximum limits or thresholds.
+
+#### **Examples:**
+
+```javascript
+const a = 10;
+const b = 10;
+
+// Greater Than or Equal
+console.log(a >= b); // Output: true (10 is equal to 10)
+console.log(typeof (a >= b)); // Output: boolean
+
+// Less Than or Equal
+console.log(a <= b); // Output: true (10 is equal to 10)
+console.log(typeof (a <= b)); // Output: boolean
+```
+
+#### **Explanation:**
+
+- **`a >= b`**: Evaluates to `true` because `10` is equal to `10`.
+- **`a <= b`**: Evaluates to `true` for the same reason.
+
+---
+
 ---
 
 ## 6. Additional Resources
