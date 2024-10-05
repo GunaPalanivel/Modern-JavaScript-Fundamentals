@@ -44,3 +44,9 @@ console.log(typeof (a === b)); // Output: boolean
 
 - **Prefer `===` and `!==`**: Using strict equality and inequality operators reduces bugs by ensuring both value and type are considered.
 - **Use `==` and `!=` cautiously**: Only use when type coercion is intentional and understood.
+
+---
+
+Happy coding!
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
