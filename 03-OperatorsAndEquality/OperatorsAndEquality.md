@@ -171,6 +171,33 @@ console.log(null == undefined); // Output: true (Because of type coercion)
 console.log(null === undefined); // Output: false (Different types)
 ```
 
-By adhering to these guidelines, developers can write more robust, predictable JavaScript code.
+<!-- will need to look -->
 
-**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
+<!-- ## Equality Operators: Strict vs. Loose -->
+
+### Strict Equality (`===`)
+
+The strict equality operator checks both **value** and **type** without performing any type conversion (known as **type coercion**). This is the preferred method of comparison because it avoids unexpected results from automatic type conversion.
+
+```javascript
+console.log(5 === 5); // Output: true (Same value and type: number)
+console.log(5 === "5"); // Output: false (Same value, but different types: number and string)
+console.log(typeof (5 === 5)); // Output: boolean
+```
+
+- **Why Use It**: Strict equality ensures that the values you compare are of the same type, reducing bugs caused by implicit conversions.
+- **Common Pitfall**: Avoid using loose equality (`==`) unless you're aware of type coercion.
+
+### Strict Inequality (`!==`)
+
+The strict inequality operator checks that either **value** or **type** is different.
+
+```javascript
+console.log(5 !== "5"); // Output: true (Same value but different types)
+console.log(5 !== 5); // Output: false (Same value and type)
+console.log(typeof (5 !== 5)); // Output: boolean
+```
+
+- **Why Use It**: Like strict equality, strict inequality prevents unexpected behavior caused by type coercion.
+
+---
