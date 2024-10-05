@@ -173,7 +173,7 @@ console.log(null === undefined); // Output: false (Different types)
 
 <!-- will need to look -->
 
-<!-- ## Equality Operators: Strict vs. Loose -->
+## 1. Equality Operators: Strict vs. Loose
 
 ### Strict Equality (`===`)
 
