@@ -143,8 +143,6 @@ console.log(typeof (a <= b)); // Output: boolean
 
 ---
 
----
-
 ## 6. Additional Resources
 
 To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
