@@ -273,6 +273,26 @@ console.log(typeof nul); // Output: "object" (Historical bug in JavaScript)
    const defaultName = userName || "Guest";
    ```
 
+---
+
+## Real-world Applications
+
+### Form Validation
+
+When validating user inputs, especially from forms, it's common to compare input values to expected formats or existing data. Strict equality ensures that both the value and type match, preventing invalid data from being processed.
+
+```javascript
+const userAgeInput = "25";
+const minAge = 18;
+
+// Using strict equality to ensure type and value match
+if (typeof userAgeInput === "string" && Number(userAgeInput) >= minAge) {
+  console.log("Age is valid"); // Output: "Age is valid"
+} else {
+  console.log("Invalid age");
+}
+```
+
 ## 6. Additional Resources
 
 To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
