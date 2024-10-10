@@ -200,6 +200,44 @@ console.log(!(x > 0)); // Output: false
 console.log(!(x < 0)); // Output: true
 ```
 
+---
+
+## Type Checking with `typeof`
+
+The `typeof` operator is a unary operator that returns a string indicating the type of the unevaluated operand. It is invaluable for validating data types, especially in dynamic typing scenarios.
+
+#### **Examples:**
+
+```javascript
+const num = 42;
+const str = "Hello";
+const bool = true;
+const obj = {};
+const arr = [];
+const func = function () {};
+const und = undefined;
+const nul = null;
+
+// Checking types
+console.log(typeof num); // Output: "number"
+console.log(typeof str); // Output: "string"
+console.log(typeof bool); // Output: "boolean"
+console.log(typeof obj); // Output: "object"
+console.log(typeof arr); // Output: "object" (Note: Arrays are objects)
+console.log(typeof func); // Output: "function"
+console.log(typeof und); // Output: "undefined"
+console.log(typeof nul); // Output: "object" (Historical bug in JavaScript)
+```
+
+#### **Explanation:**
+
+- **Primitive Types**: `typeof` accurately identifies `number`, `string`, `boolean`, `undefined`, and `symbol`.
+- **Objects and Arrays**: Both are identified as `"object"`, necessitating further checks (e.g., `Array.isArray(arr)`).
+- **Functions**: Identified distinctly as `"function"`.
+- **Null**: Returns `"object"` due to a historical JavaScript bug, requiring special handling if needed.
+
+---
+
 ## 6. Additional Resources
 
 To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
