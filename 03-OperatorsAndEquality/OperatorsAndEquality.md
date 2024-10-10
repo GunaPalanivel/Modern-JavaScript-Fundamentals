@@ -307,6 +307,22 @@ const hasNotifications = false;
 }
 ```
 
+### Feature Flags
+
+Developers use logical operators to implement feature flags, enabling or disabling features without deploying new code.
+
+```javascript
+const isFeatureEnabled = true;
+const isUserAdmin = false;
+
+// Feature available only if enabled and the user is an admin
+if (isFeatureEnabled && isUserAdmin) {
+  enableAdvancedSettings();
+}
+```
+
+---
+
 ## 6. Additional Resources
 
 To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
