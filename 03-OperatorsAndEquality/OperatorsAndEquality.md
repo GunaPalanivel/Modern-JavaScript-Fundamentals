@@ -293,6 +293,20 @@ if (typeof userAgeInput === "string" && Number(userAgeInput) >= minAge) {
 }
 ```
 
+### Conditional Rendering
+
+In frameworks like React, logical operators are used to conditionally render components based on the application's state.
+
+```javascript
+const isLoggedIn = true;
+const hasNotifications = false;
+
+// Using Logical AND to render notifications only if the user is logged in
+{
+  isLoggedIn && hasNotifications && <Notifications />;
+}
+```
+
 ## 6. Additional Resources
 
 To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
