@@ -70,3 +70,40 @@ console.log(typeof (5 === "5")); // Output: boolean
 
 - **Why Use It**: Ensures that both operands are identical in value and type, reducing bugs caused by implicit type conversions.
 - **Under the Hood**: No type coercion occurs; both operands must be of the same type to return `true`.
+
+##### Practical Use:
+
+```javascript
+const userInput = "10";
+const actualValue = 10;
+
+if (userInput === actualValue) {
+  console.log("Values match exactly."); // This won't execute
+} else {
+  console.log("Values or types do not match."); // Output: Values or types do not match.
+}
+```
+
+**Explanation**: Here, `userInput` is a string `"10"`, while `actualValue` is a number `10`. The strict equality operator checks both value and type, resulting in `false`.
+
+#### Strict Inequality (`!==`)
+
+The **strict inequality** operator (`!==`) checks whether **either** the value or the type of the operands are different.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Comparing values and types
+console.log(a !== b); // Output: true
+console.log(typeof (a !== b)); // Output: boolean
+
+console.log(5 !== "5"); // Output: true (Different types)
+console.log(5 !== 5); // Output: false (Same value and type)
+console.log(typeof (5 !== 5)); // Output: boolean
+```
+
+- **Why Use It**: Prevents unexpected behavior by ensuring that both value and type are considered in the comparison.
+- **Under the Hood**: Similar to `===`, it does not perform type coercion.
