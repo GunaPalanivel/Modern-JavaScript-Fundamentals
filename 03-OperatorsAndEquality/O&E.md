@@ -40,3 +40,33 @@ In JavaScript, **operators** are symbols that perform operations on operands (va
 Understanding these operators, their differences, and their appropriate use cases is crucial for writing clear and efficient JavaScript code.
 
 ---
+
+## 1. Comparison Operators
+
+Comparison operators evaluate two values and return a boolean result (`true` or `false`). They are fundamental in controlling the flow of a program using conditional statements like `if`, `else`, and loops.
+
+### Equality Operators: Strict vs. Loose
+
+JavaScript provides both **strict** and **loose** equality operators, each with distinct behaviors based on type coercion.
+
+#### Strict Equality (`===`)
+
+The **strict equality** operator (`===`) compares both the **value** and **type** of two operands without performing any type conversion (type coercion). This ensures precise comparisons and is generally recommended to avoid unexpected results.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Comparing values and types
+console.log(a === b); // Output: false
+console.log(typeof (a === b)); // Output: boolean
+
+console.log(5 === 5); // Output: true
+console.log(5 === "5"); // Output: false (Different types)
+console.log(typeof (5 === "5")); // Output: boolean
+```
+
+- **Why Use It**: Ensures that both operands are identical in value and type, reducing bugs caused by implicit type conversions.
+- **Under the Hood**: No type coercion occurs; both operands must be of the same type to return `true`.
