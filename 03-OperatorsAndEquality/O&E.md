@@ -107,3 +107,39 @@ console.log(typeof (5 !== 5)); // Output: boolean
 
 - **Why Use It**: Prevents unexpected behavior by ensuring that both value and type are considered in the comparison.
 - **Under the Hood**: Similar to `===`, it does not perform type coercion.
+
+##### Practical Use:
+
+```javascript
+const isAdmin = false;
+const userStatus = "false";
+
+if (isAdmin !== userStatus) {
+  console.log("User is not an admin."); // Output: User is not an admin.
+}
+```
+
+**Explanation**: `isAdmin` is a boolean `false`, whereas `userStatus` is a string `"false"`. The strict inequality operator detects the difference in types, resulting in `true`.
+
+#### Loose Equality (`==`)
+
+The **loose equality** operator (`==`) compares values **after** performing type coercion. It attempts to convert both operands to a common type before comparison, which can lead to unexpected results.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Comparing values with type coercion
+console.log(a == b); // Output: false
+console.log(typeof (a == b)); // Output: boolean
+
+console.log(5 == "5"); // Output: true (String "5" is coerced to number 5)
+console.log(0 == false); // Output: true (false is coerced to 0)
+console.log(null == undefined); // Output: true (Special case)
+console.log(typeof (5 == "5")); // Output: boolean
+```
+
+- **Pitfall**: Type coercion can cause confusion, leading to bugs. For instance, `0 == false` returns `true`, which might not be the intended behavior.
+- **Under the Hood**: JavaScript converts operands to a common type following specific rules before comparison.
