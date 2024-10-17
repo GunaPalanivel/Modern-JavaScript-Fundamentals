@@ -157,3 +157,25 @@ if (value == undefined) {
 ```
 
 **Explanation**: `null` and `undefined` are considered equal when using loose equality, allowing a single condition to check for both.
+
+#### Loose Inequality (`!=`)
+
+The **loose inequality** operator (`!=`) checks whether the values are **not equal** after type coercion.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Comparing values with type coercion
+console.log(a != b); // Output: true
+console.log(typeof (a != b)); // Output: boolean
+
+console.log(5 != "5"); // Output: false (After coercion, both are 5)
+console.log(5 != 10); // Output: true (Different values)
+console.log(typeof (5 != "5")); // Output: boolean
+```
+
+- **Avoid It**: Similar to `==`, using `!=` can lead to unpredictable results due to type coercion.
+- **Recommendation**: Prefer `!==` for clear and predictable comparisons.
