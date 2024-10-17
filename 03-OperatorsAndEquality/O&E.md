@@ -143,3 +143,17 @@ console.log(typeof (5 == "5")); // Output: boolean
 
 - **Pitfall**: Type coercion can cause confusion, leading to bugs. For instance, `0 == false` returns `true`, which might not be the intended behavior.
 - **Under the Hood**: JavaScript converts operands to a common type following specific rules before comparison.
+
+##### Practical Use:
+
+While generally discouraged, there are scenarios where loose equality can be useful, such as checking for both `null` and `undefined`:
+
+```javascript
+let value = null;
+
+if (value == undefined) {
+  console.log("Value is either null or undefined."); // Output: Value is either null or undefined.
+}
+```
+
+**Explanation**: `null` and `undefined` are considered equal when using loose equality, allowing a single condition to check for both.
