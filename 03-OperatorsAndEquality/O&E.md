@@ -293,3 +293,37 @@ if (userAge >= minAge) {
   console.log("Access granted."); // Output: Access granted.
 }
 ```
+
+#### Less Than or Equal To (`<=`)
+
+Checks if the left operand is less than or equal to the right operand.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Is 'a' less than or equal to 'b'?
+console.log(a <= b); // Output: true
+console.log(typeof (a <= b)); // Output: boolean
+
+console.log(10 <= 10); // Output: true
+console.log("apple" <= "banana"); // Output: true (Lexicographical comparison)
+```
+
+- **Why Use It**: Combines less than and equality checks, useful for inclusive range validations.
+- **Under the Hood**: Numerical comparison or lexicographical for strings.
+
+##### Practical Use:
+
+```javascript
+const maxPrice = 100;
+const productPrice = 80;
+
+if (productPrice <= maxPrice) {
+  console.log("Purchase approved."); // Output: Purchase approved.
+}
+```
+
+---
