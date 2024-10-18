@@ -4,6 +4,8 @@
 
 **Also Look At [OperatorsAndEquality.md](./OperatorsAndEquality.md)**
 
+**Draft - [OperatorsAndEquality.md (O&E.md)](./O&E.md)**
+
 # JavaScript Comparison and Logical Operators
 
 For a visual explanation, check out this [GitHub Repository](https://github.com/GunaPalanivel/JavaScript-Equality-Table.git).
