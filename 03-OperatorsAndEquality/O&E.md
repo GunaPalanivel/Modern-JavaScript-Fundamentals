@@ -195,3 +195,38 @@ if (input != 0) {
 **Explanation**: The string `"0"` is coerced to the number `0`, making `input != 0` evaluate to `false`.
 
 ---
+
+### Relational Operators
+
+Beyond equality, relational operators compare the relative values of two operands. They are primarily used with numerical values but can also work with strings based on lexicographical order.
+
+#### Greater Than (`>`)
+
+Checks if the left operand is greater than the right operand.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Is 'a' greater than 'b'?
+console.log(a > b); // Output: false
+console.log(typeof (a > b)); // Output: boolean
+
+console.log(15 > 10); // Output: true
+console.log("apple" > "banana"); // Output: false (Lexicographical comparison)
+```
+
+- **Why Use It**: Useful for sorting, range checking, and controlling flow based on thresholds.
+- **Under the Hood**: Numerical comparison or lexicographical for strings.
+
+##### Practical Use:
+
+```javascript
+const userAge = 25;
+
+if (userAge > 18) {
+  console.log("User is an adult."); // Output: User is an adult.
+}
+```
