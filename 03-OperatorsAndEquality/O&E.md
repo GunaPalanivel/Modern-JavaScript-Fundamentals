@@ -179,3 +179,19 @@ console.log(typeof (5 != "5")); // Output: boolean
 
 - **Avoid It**: Similar to `==`, using `!=` can lead to unpredictable results due to type coercion.
 - **Recommendation**: Prefer `!==` for clear and predictable comparisons.
+
+##### Practical Use:
+
+```javascript
+const input = "0";
+
+if (input != 0) {
+  console.log("Input is not zero."); // This won't execute
+} else {
+  console.log("Input is zero."); // Output: Input is zero.
+}
+```
+
+**Explanation**: The string `"0"` is coerced to the number `0`, making `input != 0` evaluate to `false`.
+
+---
