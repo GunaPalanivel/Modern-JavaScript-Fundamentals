@@ -230,3 +230,34 @@ if (userAge > 18) {
   console.log("User is an adult."); // Output: User is an adult.
 }
 ```
+
+#### Less Than (`<`)
+
+Checks if the left operand is less than the right operand.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Is 'a' less than 'b'?
+console.log(a < b); // Output: true
+console.log(typeof (a < b)); // Output: boolean
+
+console.log(5 < 10); // Output: true
+console.log("apple" < "banana"); // Output: true (Lexicographical comparison)
+```
+
+- **Why Use It**: Similar to `>`, used for sorting, range checking, and controlling flow based on thresholds.
+- **Under the Hood**: Numerical comparison or lexicographical for strings.
+
+##### Practical Use:
+
+```javascript
+const stock = 50;
+
+if (stock < 100) {
+  console.log("Low stock alert!"); // Output: Low stock alert!
+}
+```
