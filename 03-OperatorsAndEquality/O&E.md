@@ -261,3 +261,35 @@ if (stock < 100) {
   console.log("Low stock alert!"); // Output: Low stock alert!
 }
 ```
+
+#### Greater Than or Equal To (`>=`)
+
+Checks if the left operand is greater than or equal to the right operand.
+
+##### Example:
+
+```javascript
+const a = 10;
+const b = 20;
+
+// Is 'a' greater than or equal to 'b'?
+console.log(a >= b); // Output: false
+console.log(typeof (a >= b)); // Output: boolean
+
+console.log(10 >= 10); // Output: true
+console.log("banana" >= "apple"); // Output: true (Lexicographical comparison)
+```
+
+- **Why Use It**: Combines greater than and equality checks, useful for inclusive range validations.
+- **Under the Hood**: Numerical comparison or lexicographical for strings.
+
+##### Practical Use:
+
+```javascript
+const minAge = 18;
+const userAge = 18;
+
+if (userAge >= minAge) {
+  console.log("Access granted."); // Output: Access granted.
+}
+```
