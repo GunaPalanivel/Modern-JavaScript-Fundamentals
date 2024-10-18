@@ -327,3 +327,65 @@ if (productPrice <= maxPrice) {
 ```
 
 ---
+
+## 2. Logical Operators
+
+Logical operators are used to combine multiple boolean conditions, enabling more complex decision-making within control structures like `if` statements.
+
+### Logical AND (`&&`)
+
+The **logical AND** operator (`&&`) returns `true` only if **both** operands are `true`. Otherwise, it returns `false`.
+
+##### Example:
+
+```javascript
+console.log(true && true); // Output: true
+console.log(true && false); // Output: false
+console.log(false && true); // Output: false
+console.log(false && false); // Output: false
+console.log(typeof (true && true)); // Output: boolean
+```
+
+- **Why Use It**: To ensure that multiple conditions are met before executing a block of code.
+- **Under the Hood**: Evaluates operands from left to right and returns the first falsy value or the last value if all are truthy.
+
+##### Practical Use:
+
+```javascript
+const isLoggedIn = true;
+const hasAccess = true;
+
+if (isLoggedIn && hasAccess) {
+  console.log("Access granted."); // Output: Access granted.
+}
+```
+
+### Logical OR (`||`)
+
+The **logical OR** operator (`||`) returns `true` if **either** operand is `true`. It only returns `false` if **both** operands are `false`.
+
+##### Example:
+
+```javascript
+console.log(true || true); // Output: true
+console.log(true || false); // Output: true
+console.log(false || true); // Output: true
+console.log(false || false); // Output: false
+console.log(typeof (true || false)); // Output: boolean
+```
+
+- **Why Use It**: To provide fallback options or default values when one condition suffices.
+- **Under the Hood**: Evaluates operands from left to right and returns the first truthy value or the last value if all are falsy.
+
+##### Practical Use:
+
+```javascript
+const userRole = "editor";
+const isAdmin = false;
+
+if (userRole === "admin" || isAdmin) {
+  console.log("Admin privileges granted.");
+} else {
+  console.log("Access restricted."); // Output: Access restricted.
+}
+```
