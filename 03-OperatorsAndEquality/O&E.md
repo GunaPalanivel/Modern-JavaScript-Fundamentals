@@ -389,3 +389,30 @@ if (userRole === "admin" || isAdmin) {
   console.log("Access restricted."); // Output: Access restricted.
 }
 ```
+
+### Logical NOT (`!`)
+
+The **logical NOT** operator (`!`) inverts the boolean value of its operand. If the operand is `true`, it returns `false`, and vice versa.
+
+##### Example:
+
+```javascript
+console.log(!true); // Output: false
+console.log(!false); // Output: true
+console.log(typeof !true); // Output: boolean
+```
+
+- **Why Use It**: To negate conditions, making it useful in scenarios where you need to check for the opposite of a condition.
+- **Under the Hood**: Converts the operand to a boolean and then inverts it.
+
+##### Practical Use:
+
+```javascript
+const isVerified = false;
+
+if (!isVerified) {
+  console.log("User needs verification."); // Output: User needs verification.
+}
+```
+
+---
