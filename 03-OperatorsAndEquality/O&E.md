@@ -469,3 +469,66 @@ console.log(false == "false"); // Output: false
 - **Best Practice**: To avoid confusion and potential bugs, prefer **strict equality** (`===`) and **strict inequality** (`!==`).
 
 ---
+
+## 4. Best Practices and Common Pitfalls
+
+Adhering to best practices ensures that your JavaScript code remains reliable, maintainable, and free from common bugs related to operator usage.
+
+### Best Practices
+
+1. **Prefer Strict Equality (`===`) and Inequality (`!==`)**:
+
+   - **Why**: Avoids unintended type coercion, leading to more predictable comparisons.
+   - **Example**:
+
+     ```javascript
+     // Recommended
+     if (a === b) {
+       /* ... */
+     }
+
+     // Avoid
+     if (a == b) {
+       /* ... */
+     }
+     ```
+
+2. **Use Logical Operators Appropriately**:
+
+   - **Why**: Enhances code readability and ensures accurate condition evaluations.
+   - **Example**:
+
+     ```javascript
+     const isLoggedIn = true;
+     const hasAccess = true;
+
+     if (isLoggedIn && hasAccess) {
+       console.log("Access granted.");
+     }
+     ```
+
+3. **Understand Falsy Values**:
+
+   - **Why**: Prevents unintended behavior in conditional statements.
+   - **Example**:
+
+     ```javascript
+     const input = "";
+
+     if (!input) {
+       console.log("Input is empty."); // Output: Input is empty.
+     }
+     ```
+
+4. **Type Checking with `typeof`**:
+
+   - **Why**: Ensures variables are of expected types before performing operations.
+   - **Example**:
+
+     ```javascript
+     const input = "Hello";
+
+     if (typeof input === "string" && input.length > 0) {
+       console.log("Valid input.");
+     }
+     ```
