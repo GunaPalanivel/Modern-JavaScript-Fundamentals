@@ -416,3 +416,56 @@ if (!isVerified) {
 ```
 
 ---
+
+## 3. Special Cases and Type Coercion
+
+JavaScript's type coercion can lead to unexpected results, especially when using loose equality (`==`). Understanding how JavaScript handles type conversion is crucial to avoid subtle bugs.
+
+### Special Comparisons
+
+```javascript
+console.log(null == undefined); // Output: true (Loosely equal)
+console.log(null === undefined); // Output: false (Strictly not equal)
+console.log(false == "0"); // Output: true (false is coerced to 0, "0" is coerced to 0)
+console.log(false == "false"); // Output: false (The string "false" is not coerced to boolean false)
+console.log(0 == ""); // Output: true (Empty string is coerced to 0)
+console.log(" \t\r\n " == 0); // Output: true (Whitespace is coerced to 0)
+console.log(true == 1); // Output: true (true is coerced to 1)
+console.log(5 == "5"); // Output: true (String "5" is coerced to number 5)
+console.log(5 === "5"); // Output: false (Different types)
+```
+
+### Falsy Values
+
+JavaScript defines several **falsy** values that evaluate to `false` in boolean contexts:
+
+- `false`
+- `0`
+- `""` (empty string)
+- `null`
+- `undefined`
+- `NaN`
+
+#### Examples:
+
+```javascript
+console.log(false == "0"); // Output: true
+console.log(false == undefined); // Output: false
+console.log(false == null); // Output: false
+console.log("" == "0"); // Output: false
+console.log(0 == ""); // Output: true
+console.log(false == "false"); // Output: false
+```
+
+**Explanation**:
+
+- `false == "0"`: `false` is coerced to `0`, and `"0"` is coerced to `0`, resulting in `0 == 0` which is `true`.
+- `false == "false"`: `"false"` is not coerced to `0`; it's coerced to `NaN`, so `false == NaN` is `false`.
+- `"" == "0"`: An empty string `""` is coerced to `0`, but `"0"` is also coerced to `0`, making `0 == 0` which is `true`.
+
+### Implications
+
+- **Unexpected `true` or `false`**: Due to type coercion, comparisons can yield results that might not align with developer expectations.
+- **Best Practice**: To avoid confusion and potential bugs, prefer **strict equality** (`===`) and **strict inequality** (`!==`).
+
+---
