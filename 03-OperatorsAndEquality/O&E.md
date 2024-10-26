@@ -532,3 +532,49 @@ Adhering to best practices ensures that your JavaScript code remains reliable, m
        console.log("Valid input.");
      }
      ```
+
+### Common Pitfalls
+
+1. **Unexpected `true` with Loose Equality**:
+
+   - **Issue**: Due to type coercion, comparisons like `0 == false` return `true`.
+   - **Example**:
+     ```javascript
+     console.log(0 == false); // Output: true
+     ```
+   - **Solution**: Use strict equality (`===`).
+
+2. **Comparing Objects or Arrays by Reference**:
+
+   - **Issue**: Using `===` or `==` with objects or arrays compares references, not content.
+   - **Example**:
+
+     ```javascript
+     const obj1 = { a: 1 };
+     const obj2 = { a: 1 };
+
+     console.log(obj1 === obj2); // Output: false (Different references)
+     ```
+
+   - **Solution**: Use deep comparison methods or utility libraries like Lodash.
+
+3. **Special Cases with `null` and `undefined`**:
+
+   - **Issue**: Loose equality treats `null` and `undefined` as equal, which can lead to confusion.
+   - **Example**:
+     ```javascript
+     console.log(null == undefined); // Output: true
+     console.log(null === undefined); // Output: false
+     ```
+   - **Solution**: Use strict equality to differentiate between `null` and `undefined`.
+
+4. **Implicit Type Conversion in Logical Operations**:
+   - **Issue**: Logical operators can return unexpected truthy or falsy values.
+   - **Example**:
+     ```javascript
+     console.log("5" && 0); // Output: 0
+     console.log("5" || 0); // Output: "5"
+     ```
+   - **Solution**: Be mindful of operand types and expected results.
+
+---
