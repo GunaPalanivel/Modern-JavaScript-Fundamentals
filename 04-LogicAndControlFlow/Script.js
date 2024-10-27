@@ -8,22 +8,26 @@
 // Some draft code to be used in this script.
 // Sample JavaScript code to demonstrate the syntax and various forms of the `if` statement.
 
-// Variable to check against in conditional statements
+// Sample JavaScript code to demonstrate various `if` statement usages and comparison operators.
+
+// Variable for conditional checks
 const age = 18;
 
-// Basic Syntax of an `if` Statement
+// Basic Syntax of an `if` Statement:
 // if (Condition) {
 //   // Code to execute if the condition is true.
 // }
 
 // Example 1: Simple `if` Statement with equality check (loose comparison)
 // Using `==` checks if `age` is equal to 18, allowing type coercion.
+// For instance, if `age` were the string "18", this would still return true.
 if (age == 18) {
   console.log("You are an adult (using loose equality).");
 }
 
 // Example 2: `if` Statement with strict equality check (`===`)
-// Checks if `age` is exactly equal to 18, both in type and value.
+// This checks if `age` is exactly equal to 18, both in type and value.
+// Type coercion is not allowed here, so `age` must be the number 18.
 if (age === 18) {
   console.log("You are an adult (using strict equality).");
 }
@@ -70,7 +74,7 @@ if (age >= 18) {
 // Additional Examples: Demonstrating strict and incorrect usage of inequality operators
 
 // Example 9: Using `!==` (strict inequality)
-// Checks if `age` is NOT exactly equal to 18, ensuring both type and value differ.
+// This checks if `age` is NOT exactly equal to 18, ensuring both type and value differ.
 if (age !== 18) {
   console.log("You are not exactly 18 (strict inequality).");
 }
@@ -83,24 +87,33 @@ if (age !== 18) {
 // }
 
 // Example 11: Using `!=` (loose inequality)
-// Checks if `age` is NOT equal to 18, allowing type coercion.
-// For instance, `age` as a string "18" would be considered equal to 18 here.
+// This checks if `age` is NOT equal to 18, allowing type coercion.
+// For instance, if `age` were the string "18", this would still return true.
 if (age != 18) {
   console.log("You are not exactly 18 (loose inequality).");
 }
 
-// Example 02: If Statement with else.
+// Comprehensive Examples with `else if` and `else`
+
+// Example 12: `if...else` Statement
+// Provides an alternative action if the initial condition is false.
+// Checks if `age` is 18 or older; otherwise, it executes the `else` block.
 if (age >= 18) {
-  console.log("You are an adult");
+  console.log("You are an adult.");
 } else {
-  console.log("You are a child");
+  console.log("You are a child.");
+}
+// Example 13: Using `if...else if...else`
+// Provides multiple conditions to evaluate the value of `age`.
+if (age >= 18) {
+  console.log("You are an adult.");
+} else if (age >= 13) {
+  console.log("You are a teenager.");
+} else {
+  console.log("You are a child.");
 }
 
-// Example 03: If Statement with else if.
-if (age >= 18) {
-  console.log("You are an adult");
-} else if (age >= 13) {
-  console.log("You are a teenager");
-} else {
-  console.log("You are a child");
-}
+// Summary:
+// - `==` and `!=` allow type coercion, so "18" == 18 is true, but "18" !== 18 is false.
+// - Use `===` and `!==` for strict type comparisons, avoiding unintentional type conversions.
+// - `else if` allows for multiple conditions, while `else` provides a fallback if no other conditions are met.
