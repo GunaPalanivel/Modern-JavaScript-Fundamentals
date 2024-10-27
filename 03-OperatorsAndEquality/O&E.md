@@ -609,3 +609,14 @@ Understanding and correctly using JavaScript's comparison, equality, and logical
    - Perform type checking with `typeof` when necessary to ensure operands are of expected types.
 
 ---
+
+## 6. Additional Resources
+
+To further enhance your understanding of JavaScript operators and equality comparisons, consider exploring the following resources:
+
+- [MDN Web Docs - Equality Comparisons and Sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+- [MDN Web Docs - Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+
+Happy coding!
+
+**Back to [Modern JavaScript Fundamentals](https://gunapalanivel.github.io/Modern-JavaScript-Fundamentals/)**
