@@ -1,0 +1,49 @@
+/* Set the display property of the body element to flex, 
+   which allows the child elements to be aligned horizontally */
+body {
+  display: flex;
+  justify-content: center; /* Center the child elements horizontally */
+  align-items: center; /* Center the child elements vertically */
+  background-color: rgb(
+    177,
+    178,
+    203
+  ); /* Set the background color of the body */
+  height: 100vh; /* Set the height of the body to 100% of the viewport height */
+  margin: 0; /* Remove the default margin */
+  padding: 0; /* Remove the default padding */
+}
+
+/* Set the font size and text alignment of the paragraph elements */
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.copyright {
+  background-color: rgb(
+    177,
+    178,
+    203
+  ); /* Apply a background color and style for the copyright div, Set the background color of the copyright div */
+  color: wheat; /* Set the text color of the copyright div */
+  text-align: center; /* Set the text alignment of the copyright div */
+  font-size: 25px; /* Set the font size of the copyright div */
+  padding: 10px; /* Set the padding of the copyright div */
+  position: fixed; /* Set the position of the copyright div to fixed */
+  bottom: 0; /* Set the bottom position of the copyright div to 0 */
+  width: 100%; /* Set the width of the copyright div to 100% */
+  margin-top: 20px; /* Set the margin of the copyright div, Add some margin at the top to avoid overlapping with the content */
+}
+
+/* Style the paragraph inside the copyright div */
+.copyright p {
+  margin: 0; /* Remove the margin of the paragraph inside the copyright div */
+}
+
+/* Style the link in the paragraph */
+a {
+  color: whitesmoke; /* Set the color of the link in the paragraph */
+  text-decoration: none; /* Remove the underline from the link in the paragraph */
+  font-weight: bold; /* Set the font weight of the link in the paragraph */
+}
